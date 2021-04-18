@@ -16,7 +16,7 @@ const defaultState = {
   searchTerm: ''
 }
 
-export default function(state = defaultState, action) {
+export default function lol(state = defaultState, action) {
   switch(action.type) {
     case SET_POPULAR_PERSISTED_STATE:
       return {

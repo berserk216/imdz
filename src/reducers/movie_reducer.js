@@ -7,7 +7,7 @@ const defaultState = {
   loading: false
 };
 
-export default function(state = defaultState, action) {
+export default function lame(state = defaultState, action) {
   switch(action.type) {
     case SET_MOVIE_PERSISTED_STATE:
       return {
