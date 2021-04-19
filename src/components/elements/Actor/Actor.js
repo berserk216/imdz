@@ -12,8 +12,9 @@ const Actor = ({ actor }) => {
         src={
           actor.profile_path
             ? `${IMAGE_BASE_URL}${POSTER_SIZE}${actor.profile_path}`
-            : "./images/no_image.jpg"
-        }
+            : "./images/no_image.jpg"}
+          
+        
         alt="actorthumb"
       />
       <span className="rmdb-actor-name">{actor.name}</span>

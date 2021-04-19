@@ -128,10 +128,3 @@ export function clearMovies() {
     payload: null
   }
 }
-// export function getTrailer(id) {
-//   let APIkey = process.env.REACT_APP_APIKEY;
-//   let url = `https://api.themoviedb.org/3/movie/${id}/videos?api_key=${APIkey}&language=en-US`
-//   let res = await Axios.get(url)
-//   setTrailer(res.data.results[0])
-//   console.log("Trailer:", res.data.results[0])
-// }
